@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+:root {
+    /* Primary */
+
+    --Blue: hsl(223, 87%, 63%);
+
+    /* Secondary */
+
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+
+    /* Neutral */
+
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+}
+main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    margin: 1rem auto;
+}
+
+.header-text {
+    margin: 30px;
+}
+.header-text h1 {
+    font-size: 2.8rem;
+    font-weight: lighter;
+    color: var(--Gray);
+    margin: 5px 0;
+}
+span {
+    color: var(--Very-Dark-Blue);
+    font-weight: 900;
+}
+.header-text p {
+    font-size: 1.2rem;
+    color: var(--Gray);
+}
+
+.error {
+    font-size: 13px;
+    text-align: left;
+    margin: 0;
+    margin-left: 60px;
+    color: red;
+    font-style: italic;
+}
+.email {
+    margin: 2rem 0 4rem;
+}
+#email,
+button {
+    padding: 0.9rem;
+    margin: 0.5rem;
+    border-radius: 40px;
+}
+
+#email {
+    border: 1px solid var(--Gray);
+    width: 60%;
+}
+#email:focus {
+    outline: none;
+}
+
+button {
+    width: 20%;
+    border: none;
+    background-color: var(--Blue);
+    color: white;
+    box-shadow: 2px 2px 5px var(--Gray);
+}
+
+button:hover {
+    background-color: var(--Pale-Blue);
+}
+.illustration-dashboard {
+    width: 100%;
+}
+
+footer {
+    color: var(--Gray);
+    text-align: center;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0px 0px;
+}
+
+.socials > * {
+    margin: 5px;
+}
+
+i {
+    color: var(--Blue);
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid var(--Gray);
+}
+i:hover {
+    cursor: pointer;
+    background-color: var(--Blue);
+    color: white;
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1100px) {
+    main {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 700px) {
+    main {
+        width: 100%;
+    }
+
+    .header-text h1 {
+        font-size: 1.8rem;
+    }
+    #email,
+    button {
+        width: 80%;
+    }
+}
