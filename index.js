@@ -46,11 +46,11 @@ function validateEmailData(inputFieldName) {
 // Complete Validation
 
 function validationComplete(inputFieldName) {
-    if (!inputFieldName.classList.contains("error")) {
-        window.location.href = "#";
-        inputFieldName.value = "";
-        inputFieldName.style.borderColor = "hsl(0, 0%, 59%)";
-    }
+   if (errorMsg.innerHTML == "") {
+       window.location.href = "#";
+       inputFieldName.value = "";
+       inputFieldName.style.borderColor = "hsl(0, 0%, 59%)";
+   }
 }
 
 // Error and Success Functions
