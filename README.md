@@ -36,9 +36,9 @@ Users should be able to:
 
 ### Links
 
--   Frontend Mentor Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/)
--   Live Site URL: [Live Hosted Website](https://mharvel13.github.io/)
--   Github Solution URL: [Github Hosted Codes](https://github.com/Mharvel13/)
+-   Frontend Mentor Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/ping-coming-soon-page-solution-EGjGuPO_RN)
+-   Live Site URL: [Live Hosted Website](https://mharvel13.github.io/Ping-Coming-Soon-Page-Master/)
+-   Github Solution URL: [Github Hosted Codes](https://github.com/Mharvel13/Ping-Coming-Soon-Page-Master)
 
 ## My process
 
